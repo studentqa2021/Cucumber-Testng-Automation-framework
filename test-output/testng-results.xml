@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-01-30T02:20:39 EST" name="Default suite" finished-at="2022-01-30T02:20:45 EST" duration-ms="5642">
+    <groups>
+    </groups>
+    <test started-at="2022-01-30T02:20:39 EST" name="Default test" finished-at="2022-01-30T02:20:45 EST" duration-ms="5642">
+      <class name="com.smoke.test.SmokeTestRun">
+        <test-method is-config="true" signature="before()[pri:0, instance:com.smoke.test.SmokeTestRun@359f7cdf]" started-at="2022-01-30T02:20:39 EST" name="before" finished-at="2022-01-30T02:20:40 EST" duration-ms="228" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:com.smoke.test.SmokeTestRun@359f7cdf]" started-at="2022-01-30T02:20:40 EST" name="setUp" finished-at="2022-01-30T02:20:40 EST" duration-ms="4" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.smoke.test.SmokeTestRun.smokeTest_LoginFunction_Positive() throws java.lang.Throwable]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="smokeTest_LoginFunction_Positive()[pri:0, instance:com.smoke.test.SmokeTestRun@359f7cdf]" started-at="2022-01-30T02:20:40 EST" name="smokeTest_LoginFunction_Positive" finished-at="2022-01-30T02:20:45 EST" duration-ms="4908" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- smokeTest_LoginFunction_Positive -->
+        <test-method is-config="true" signature="aftermethod(org.testng.ITestResult)[pri:0, instance:com.smoke.test.SmokeTestRun@359f7cdf]" started-at="2022-01-30T02:20:45 EST" name="aftermethod" finished-at="2022-01-30T02:20:45 EST" duration-ms="19" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=smokeTest_LoginFunction_Positive status=SUCCESS method=SmokeTestRun.smokeTest_LoginFunction_Positive()[pri:0, instance:com.smoke.test.SmokeTestRun@359f7cdf] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftermethod -->
+        <test-method is-config="true" signature="sfterSuite()[pri:0, instance:com.smoke.test.SmokeTestRun@359f7cdf]" started-at="2022-01-30T02:20:45 EST" name="sfterSuite" finished-at="2022-01-30T02:20:45 EST" duration-ms="443" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sfterSuite -->
+      </class> <!-- com.smoke.test.SmokeTestRun -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
