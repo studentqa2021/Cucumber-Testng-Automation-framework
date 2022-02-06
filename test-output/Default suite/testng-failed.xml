@@ -6,7 +6,7 @@
       <class name="com.smoke.test.SmokeTestRun">
         <methods>
           <include name="before"/>
-          <include name="login"/>
+          <include name="smoke_Test_Login_Function_Positive"/>
           <include name="aftermethod"/>
           <include name="sfterSuite"/>
           <include name="setUp"/>

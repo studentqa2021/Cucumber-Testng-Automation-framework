@@ -35,7 +35,7 @@ public class DragAndDrop {
 		WebElement drop=driver.findElement(By.xpath(".//*[@id='droppable']"));
 		 
 		// this will drag element to destination
-		act.dragAndDrop(drag, drop).build().perform();
+		act.dragAndDrop(drag, drop).perform();
 		// driver.quit();;
 
 	}

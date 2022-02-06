@@ -1,29 +1,20 @@
 package com.smoke.test;
 
-import org.openqa.selenium.WebDriver;
-import org.testng.annotations.BeforeTest;
+
 import org.testng.annotations.Test;
 
 import com.generic.BaseLogin;
-import com.report.ExtentReport;
+import com.report.ExtentReportAutomation;
 
-public class SmokeTestRun  extends ExtentReport {
-	
-static WebDriver driver;
 
-//	public static void main(String[] args) throws Exception {
-//		
-//		new BaseLogin().getLogin();
-//		
-//	}
+public class SmokeTestRun  extends ExtentReportAutomation {
 
-@Test
-public void smokeTest_LoginFunction_Positive() throws Throwable {
+
+	@Test
+	public void smoke_Test_Login_Function_Positive() throws Throwable {
+		new BaseLogin().getLogin();
+	}
 	
-	new BaseLogin().getLogin();
-	
-	
-}
 
 
 }

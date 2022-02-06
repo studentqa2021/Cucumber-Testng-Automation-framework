@@ -27,13 +27,14 @@ public class AlertInSelenium {
 		TimeUnit.SECONDS.sleep(5);
 		driver.findElement(By.xpath("//*[@name='submit']")).click();
 		TimeUnit.SECONDS.sleep(5);
-		Alert alert = driver.switchTo().alert();
+		Alert alert = driver.switchTo().alert();//interface
+		
 		TimeUnit.SECONDS.sleep(2);
 		System.out.println(alert.getText());
 		TimeUnit.SECONDS.sleep(2);
-		alert.accept();
+		alert.accept();//OK
 		
-		//alert.dismiss();
+		//alert.dismiss();//Cancle
 		driver.quit();
 
 	}

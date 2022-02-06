@@ -23,7 +23,7 @@ public class WindowHandleInSelenium {
 		driver.findElement(By.xpath("//*[contains(@href,'popup.php')]")).click();
 
 		String MainWindow = driver.getWindowHandle();
-
+System.out.println(MainWindow);
 		// To handle all new opened window.
 		Set<String> s1 = driver.getWindowHandles();
 		Iterator<String> i1 = s1.iterator();
