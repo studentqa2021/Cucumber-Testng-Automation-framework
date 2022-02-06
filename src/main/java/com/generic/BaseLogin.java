@@ -1,6 +1,5 @@
 package com.generic;
 
-
 import java.util.logging.Level;
 
 import org.apache.log4j.Logger;
@@ -21,17 +20,18 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 public class BaseLogin {
 
 	Logger log = Logger.getLogger(BaseLogin.class.getName());
-	 
+
 	public void getLogin() throws Throwable {
 
 		// System.setProperty("webdriver.chrome.driver", "./Driver/chromedriver.exe");
+		
+		
 		WebDriverManager.chromedriver().setup();
-		
-		  System.setProperty("webdriver.chrome.silentOutput", "true");
-		  java.util.logging.Logger.getLogger("org.openqa.selenium").setLevel(Level.OFF);
-		 
-		
+		System.setProperty("webdriver.chrome.silentOutput", "true");
+		java.util.logging.Logger.getLogger("org.openqa.selenium").setLevel(Level.OFF);
 		WebDriver driver = new ChromeDriver();
+
+		
 		driver.get(BaseConfig.getValue("URL"));// any website
 		driver.manage().window().maximize();
 		log.info("Home page opened");
