@@ -15,16 +15,9 @@ public class LoginStepDef {
 	    
 	
 	}
-	@Given("^Put GCR shop URL$")
-	public void put_GCR_shop_URL() throws Throwable {
-		 
-	    
-	}
-
-	@When("^Click my account$")
-	public void click_my_account() throws Throwable {
-		
-	    
+	@Given("Put application URL")
+	public void put_application_URL() {
+	  
 	}
 
 	@When("^put email$")
